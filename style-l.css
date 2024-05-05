@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #headerpost {
@@ -56,7 +56,7 @@ header {
 
 #site img {
     vertical-align: bottom;
-    width: 400px;
+    width: 332px;
 }
 
 
@@ -71,14 +71,14 @@ header {
 
 nav {
     float: right;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 nav ul {
-    margin:5;
-    padding:5;
+    margin:0;
+    padding:0;
 }
 
 nav li {
@@ -89,10 +89,10 @@ nav li {
 nav li a {
     display: block;
     float: left;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
     text-decoration: none;
-    border-bottom: solid 5px transparent;
+    border-bottom: solid 3px transparent;
     color: #000000;
 }
 
@@ -114,7 +114,7 @@ header {
 #headerpost img {
     float: left;
     vertical-align: bottom;
-    width: 900px;
+    width: 720px;
 }
 
 
@@ -153,11 +153,11 @@ header {
 #headerpost {
     background-color: #333333;
     background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#888888));
-    background: -webkit-linear-gradient(#000000 0%, #888888 100%);
-    background: -moz-linear-gradient(#000000 0%, #888888 100%);
-    background: -o-linear-gradient(#000000 0%, #888888 100%);
-    background: -ms-linear-gradient(#000000 0%, #888888 100%);
-    background: linear-gradient(#000000 0%, #888888 100%);
+    background: -webkit-linear-gradient(#575a8c 0%, #87bcd6 100%);
+    background: -moz-linear-gradient(#575a8c 0%,#87bcd6 100%);
+    background: -o-linear-gradient(#575a8c 0%, #87bcd6 100%);
+    background: -ms-linear-gradient(#575a8c 0%, #87bcd6 100%);
+    background: linear-gradient(#575a8c 0%, #87bcd6 100%);
     overflow: hidden;
 }
 
@@ -170,19 +170,19 @@ header {
 /* ### POST 圖文 ###*/
 
 .post img {
-    width: 250px;
+    width: 216px;
     height: auto;
     vertical-align: bottom;
     border: none;
 }
 
 .post h2 {
-    font-size: 22px;
-    margin: 2px 0 0;
+    font-size: 16px;
+    margin: 5px 0 0;
 }
 
 .post p {
-    font-size: 17px;
+    font-size: 12px;
     margin: 10px 0;
 }
 
@@ -196,7 +196,7 @@ header {
     color: #ffffff;
     font-size: 14px;
     font-family: 'Macen Pro', Helvetica, Arial, sans-serif;
-    background-color: #666666;
+    background-color: #27698a;
     background-image: url(img/more.png);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -213,7 +213,7 @@ header {
 }
 
 .post a:hover {
-    background-color: #bad5e6
+    background-color: #9acbe3
 }
 
 
@@ -227,8 +227,8 @@ header {
 /* ### FOOTER ###*/
 
 footer {
-    background-color: #000000;
-    padding: 10px;
+    background-color: #16243b;
+    padding: 5px;
 }
 
 
